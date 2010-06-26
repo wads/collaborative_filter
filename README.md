@@ -1,8 +1,9 @@
 # CollaborativeFilter Lib
 
-## Sample codegit
+## Sample code
 
 ```php
+
 <?php
 
 require_once 'Wads/Recommend/CollaborativeFilter.php';
@@ -11,9 +12,9 @@ require_once 'Wads/Recommend/CollaborativeFilter/Similarity/Pearson.php';
 require_once 'Wads/Recommend/CollaborativeFilter/Ratings.php';
 
 /*
- * 入力データ
- * iniファイルもしくはarray形式
- * array形式のときの変数名は$dataset
+ * Input data
+ * Ini file or array
+ * Need to use $dataset variable name when use array
  */
 //$ratings = 'data.inc';
 $ratings = 'data.ini';
@@ -48,4 +49,5 @@ function _print(array $res, $title, $user = 'noname') {
     }
     echo "\n";
 }
-'''
+
+```
